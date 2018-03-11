@@ -1,0 +1,5 @@
+Algorithm
+In this assignment morphing has been done between 2 images whose corresponding feature points have been given as input in two separate text files.
+First of all, for any intermediate image, its feature points are calculated using linear interpolation between the initial and final images.
+Then using those feature points, Delaunay triangulation is done for the intermediate image. For every triangle so formed in this image, transformation matrices for conversion to initial and final image’s corresponding triangles have been calculated.
+For every pixel in the intermediate image, these matrices are then used to get the corresponding pixels from the initial and final images. The intensities of these two pixels are linearly interpolated to calculate the grey value at that pixel.
