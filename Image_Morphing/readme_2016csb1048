@@ -1,0 +1,6 @@
+This is the code for morphing using Delaunay Triangulation.
+To run the code, ensure that your directory has the standard OpenCV libraries, use a makefile.
+to run the code , type:
+ 	cmake .
+ 	make
+ 	./a2_Parul_2016csb1048 

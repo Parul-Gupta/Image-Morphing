@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( a2_Parul_2016csb1048 )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( a2_Parul_2016csb1048 a2_Parul_2016csb1048.cpp )
+target_link_libraries( a2_Parul_2016csb1048 ${OpenCV_LIBS} )
